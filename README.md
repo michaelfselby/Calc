@@ -18,7 +18,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] I created a number of Ppeople variable and calculated the amount each person would owe  
+- [ ] I created a number of people variable and calculated the amount each person would owe  
 
 ## Video Walkthrough 
 
@@ -30,7 +30,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Challenges encountered while building the app were mostly arounf syntax and centering elements within the iPhione6 canvas 
 
 ## License
 
