@@ -18,13 +18,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ ] I created a number of Ppeople variable and calculated the amount each person would owe  
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<a href="/course_images/ios_for_designers/name%20of%20your%20file%20in%20the%20repo.gif" target="_blank"><img src='/course_images/ios_for_designers/name%20of%20your%20file%20in%20the%20repo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
+![animated gif] (tip-o-meter.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -34,7 +34,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Michael Selby]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
