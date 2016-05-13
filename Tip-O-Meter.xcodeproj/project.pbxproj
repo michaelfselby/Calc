@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FBFABA6E1CE4F583004B9558 /* Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFABA6E1CE4F583004B9558 /* Tip-O-Meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip-O-Meter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFABA711CE4F583004B9558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBFABA731CE4F583004B9558 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FBFABA761CE4F583004B9558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBFABA781CE4F583004B9558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBFABA7B1CE4F583004B9558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBFABA7D1CE4F583004B9558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBFABA821CE4F584004B9558 /* CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFABA821CE4F584004B9558 /* Tip-O-Meter.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip-O-Meter.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFABA861CE4F584004B9558 /* CalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcTests.swift; sourceTree = "<group>"; };
 		FBFABA881CE4F584004B9558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBFABA8D1CE4F584004B9558 /* CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFABA8D1CE4F584004B9558 /* Tip-O-Meter.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip-O-Meter.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFABA911CE4F584004B9558 /* CalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcUITests.swift; sourceTree = "<group>"; };
 		FBFABA931CE4F584004B9558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		FBFABA6F1CE4F583004B9558 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBFABA6E1CE4F583004B9558 /* Calc.app */,
-				FBFABA821CE4F584004B9558 /* CalcTests.xctest */,
-				FBFABA8D1CE4F584004B9558 /* CalcUITests.xctest */,
+				FBFABA6E1CE4F583004B9558 /* Tip-O-Meter.app */,
+				FBFABA821CE4F584004B9558 /* Tip-O-Meter.xctest */,
+				FBFABA8D1CE4F584004B9558 /* Tip-O-Meter.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBFABA6D1CE4F583004B9558 /* Calc */ = {
+		FBFABA6D1CE4F583004B9558 /* Tip-O-Meter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBFABA961CE4F584004B9558 /* Build configuration list for PBXNativeTarget "Calc" */;
+			buildConfigurationList = FBFABA961CE4F584004B9558 /* Build configuration list for PBXNativeTarget "Tip-O-Meter" */;
 			buildPhases = (
 				FBFABA6A1CE4F583004B9558 /* Sources */,
 				FBFABA6B1CE4F583004B9558 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = Calc;
+			name = "Tip-O-Meter";
 			productName = Calc;
-			productReference = FBFABA6E1CE4F583004B9558 /* Calc.app */;
+			productReference = FBFABA6E1CE4F583004B9558 /* Tip-O-Meter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FBFABA811CE4F584004B9558 /* CalcTests */ = {
+		FBFABA811CE4F584004B9558 /* Tip-O-MeterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBFABA991CE4F584004B9558 /* Build configuration list for PBXNativeTarget "CalcTests" */;
+			buildConfigurationList = FBFABA991CE4F584004B9558 /* Build configuration list for PBXNativeTarget "Tip-O-MeterTests" */;
 			buildPhases = (
 				FBFABA7E1CE4F584004B9558 /* Sources */,
 				FBFABA7F1CE4F584004B9558 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				FBFABA841CE4F584004B9558 /* PBXTargetDependency */,
 			);
-			name = CalcTests;
+			name = "Tip-O-MeterTests";
 			productName = CalcTests;
-			productReference = FBFABA821CE4F584004B9558 /* CalcTests.xctest */;
+			productReference = FBFABA821CE4F584004B9558 /* Tip-O-Meter.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FBFABA8C1CE4F584004B9558 /* CalcUITests */ = {
+		FBFABA8C1CE4F584004B9558 /* Tip-O-MeterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBFABA9C1CE4F584004B9558 /* Build configuration list for PBXNativeTarget "CalcUITests" */;
+			buildConfigurationList = FBFABA9C1CE4F584004B9558 /* Build configuration list for PBXNativeTarget "Tip-O-MeterUITests" */;
 			buildPhases = (
 				FBFABA891CE4F584004B9558 /* Sources */,
 				FBFABA8A1CE4F584004B9558 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				FBFABA8F1CE4F584004B9558 /* PBXTargetDependency */,
 			);
-			name = CalcUITests;
+			name = "Tip-O-MeterUITests";
 			productName = CalcUITests;
-			productReference = FBFABA8D1CE4F584004B9558 /* CalcUITests.xctest */;
+			productReference = FBFABA8D1CE4F584004B9558 /* Tip-O-Meter.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					FBFABA6D1CE4F583004B9558 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C24UX4Y24J;
 					};
 					FBFABA811CE4F584004B9558 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -204,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FBFABA691CE4F583004B9558 /* Build configuration list for PBXProject "Calc" */;
+			buildConfigurationList = FBFABA691CE4F583004B9558 /* Build configuration list for PBXProject "Tip-O-Meter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +218,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBFABA6D1CE4F583004B9558 /* Calc */,
-				FBFABA811CE4F584004B9558 /* CalcTests */,
-				FBFABA8C1CE4F584004B9558 /* CalcUITests */,
+				FBFABA6D1CE4F583004B9558 /* Tip-O-Meter */,
+				FBFABA811CE4F584004B9558 /* Tip-O-MeterTests */,
+				FBFABA8C1CE4F584004B9558 /* Tip-O-MeterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +283,12 @@
 /* Begin PBXTargetDependency section */
 		FBFABA841CE4F584004B9558 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FBFABA6D1CE4F583004B9558 /* Calc */;
+			target = FBFABA6D1CE4F583004B9558 /* Tip-O-Meter */;
 			targetProxy = FBFABA831CE4F584004B9558 /* PBXContainerItemProxy */;
 		};
 		FBFABA8F1CE4F584004B9558 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FBFABA6D1CE4F583004B9558 /* Calc */;
+			target = FBFABA6D1CE4F583004B9558 /* Tip-O-Meter */;
 			targetProxy = FBFABA8E1CE4F584004B9558 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,10 +398,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Calc;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tip-O-Meter";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +412,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Calc;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tip-O-Meter";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -422,8 +429,8 @@
 				INFOPLIST_FILE = CalcTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.CalcTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calc.app/Calc";
+				PRODUCT_NAME = "Tip-O-Meter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip-O-Meter.app/Tip-O-Meter";
 			};
 			name = Debug;
 		};
@@ -434,8 +441,8 @@
 				INFOPLIST_FILE = CalcTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.CalcTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calc.app/Calc";
+				PRODUCT_NAME = "Tip-O-Meter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip-O-Meter.app/Tip-O-Meter";
 			};
 			name = Release;
 		};
@@ -445,7 +452,7 @@
 				INFOPLIST_FILE = CalcUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.CalcUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tip-O-Meter";
 				TEST_TARGET_NAME = Calc;
 				USES_XCTRUNNER = YES;
 			};
@@ -457,7 +464,7 @@
 				INFOPLIST_FILE = CalcUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.CalcUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tip-O-Meter";
 				TEST_TARGET_NAME = Calc;
 				USES_XCTRUNNER = YES;
 			};
@@ -466,7 +473,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBFABA691CE4F583004B9558 /* Build configuration list for PBXProject "Calc" */ = {
+		FBFABA691CE4F583004B9558 /* Build configuration list for PBXProject "Tip-O-Meter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBFABA941CE4F584004B9558 /* Debug */,
@@ -475,7 +482,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBFABA961CE4F584004B9558 /* Build configuration list for PBXNativeTarget "Calc" */ = {
+		FBFABA961CE4F584004B9558 /* Build configuration list for PBXNativeTarget "Tip-O-Meter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBFABA971CE4F584004B9558 /* Debug */,
@@ -484,7 +491,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBFABA991CE4F584004B9558 /* Build configuration list for PBXNativeTarget "CalcTests" */ = {
+		FBFABA991CE4F584004B9558 /* Build configuration list for PBXNativeTarget "Tip-O-MeterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBFABA9A1CE4F584004B9558 /* Debug */,
@@ -493,7 +500,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBFABA9C1CE4F584004B9558 /* Build configuration list for PBXNativeTarget "CalcUITests" */ = {
+		FBFABA9C1CE4F584004B9558 /* Build configuration list for PBXNativeTarget "Tip-O-MeterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBFABA9D1CE4F584004B9558 /* Debug */,
